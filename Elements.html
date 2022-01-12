@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lists</title>
+    <title>Elements Of HTML</title>
 </head>
 <body>
-<h2>Lists in HTML</h2>
+
+<h2>An Unordered List</h2>
 <ul style="list-style-type: circle">
     <li>Unordered Lists</li>
     <li>Ordered Lists</li>
     <li>Definition Lists</li>
 </ul>
+
 <hr>
+
 <h2>An Ordered List</h2>
 <ol>
     <li>HTML</li>
@@ -19,5 +22,56 @@
     <li>JAVA</li>
     <li>BOOTSTRAP</li>
 </ol>
+
+<hr>
+
+<h2>A Definition List</h2>
+<dl>
+    <dt>Internecine</dt>
+    <dd>An Internecine conflict, war or quarrel is one which takes place between opposing groups within a country or organisation.</dd>
+    <dt>Pique</dt>
+    <dd>It's the feeling of annoyance you get when you think someone has not treated you properly.</dd>
+    <dt>Facade</dt>
+    <dd>It is an outward appearance which is deliberately false and gives you the wrong impression about something or someone.</dd>
+</dl>
+
+<hr>
+<h2>Attendance List</h2>
+
+<style>
+    table {
+        width: 600px;height: 400px;
+        background-color: darkgray;
+        font-family: "Comic Sans MS";
+    }
+    
+    td{
+        border: 5px;solid-color: black;
+        text-align: center;color: aqua;
+        padding: 20px;
+        margin: 30px;
+    }
+</style>
+
+<table>
+    <tr>
+        <th></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+    </tr>
+    <tr>
+        <th scope="row">JOHN</th>
+        <td>*</td><td></td><td></td>
+    </tr>
+    <tr>
+        <th scope="row">Vanessa</th>
+        <td></td><td>*</td><td>*</td>
+    </tr>
+    <tr>
+        <th scope="row">Marcus</th>
+        <td>*</td><td>*</td><td>*</td>
+    </tr>
+</table>
 </body>
 </html>
