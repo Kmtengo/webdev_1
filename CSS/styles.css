@@ -1,0 +1,39 @@
+form{
+    border: 2px solid black;
+    background-color: beige;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.divstyle{
+    padding: 15px;
+    margin-left: 55px;
+    font-family: "Bauhaus 93";
+}
+
+.telinput{
+    width: 85px;
+}
+
+.plofont{
+    font-family: Arial;
+}
+
+.intfont{
+    font-family: Arial;
+}
+
+.substyle {
+    background-color: aquamarine;
+}
+
+.marginput{
+    margin-right: 35px;
+}
+
+#aoiinput{
+    background-color: whitesmoke;
+    width: 25%;
+    height: 55px;
+}
